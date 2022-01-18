@@ -1,0 +1,28 @@
+{
+  "name": "pigrid_parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/powellian/PiGrid_Parcel.git"
+  },
+  "author": "Pi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/powellian/PiGrid_Parcel/issues"
+  },
+  "homepage": "https://github.com/powellian/PiGrid_Parcel#readme",
+  "dependencies": {
+    "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1"
+  }
+}

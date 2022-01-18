@@ -1,0 +1,24 @@
+body {
+  background-color: #eee;
+}
+// @use 'sass:math';
+// // Base settings & Utilities
+@import 'scss/base/base';
+@import 'scss/base/reset';
+@import 'scss/base/vars-maps-colours';
+
+@import 'scss/util/mixins';
+
+@import 'scss/base/typography';
+
+// PiGrid
+@import 'scss/grid/layouts'; // Optional
+@import 'scss/grid/grid';
+@import 'scss/grid/v-rhythm';
+@import 'scss/grid/demo'; // DEMO - safely comment this out & remove 'pigr__DEMO' classname - layout is unaffected
+
+// Components: scope - global
+@import 'scss/components/global/global__header';
+
+// Components: scope - atomic
+@import 'scss/components/atomic/gradient-block';
