@@ -35,15 +35,41 @@ Omitting the pod size leads to the elements _auto-sizing_ in the available space
 - 4x `pigr__pod` and 1x `pigr__row pigr__pod--2`
 
 **_QA:_**
-Tested iteratively from ground-up in all decent modern browsers, with Firefox and Chrome device emulators used extensively throughout.
 Mobile testing done in Android: Firefox & Chrome and iOS: Safari.
+Tested iteratively from ground-up in all decent modern browsers, with Firefox and Chrome device emulators used extensively throughout.
 Tablet devices mostly tested in emulators.
 
-The new Edge Chromium renders perfectly.
+Edge Chromium renders perfectly.
 Edge 16+ tested intermittently in Browserstack, needs more (in progress).
-**Currently breaks a bit in IE11 - am working on this.**
+**Currently breaks a bit in IE11.**
 Nothing pre-IE11.
 
-## This project runs with...
+---
 
-This project has been ported into [https://parceljs.org/](Parcel 2). It's being tweaked a little right now (Jan '22).
+## To run and view the project:
+
+The project is built and compiled with [Parcel bundler](https://parceljs.org/) because it just works; anything else would be overkill.
+
+- `npm i` - install dependencies
+- `npm run start`
+
+This runs the animation at `localhost:1234` with hot module reloading on save.
+
+To compile for production:
+
+- `npm run build`
+
+**NOTE:**
+Parcel deploys files to a flat structure. If a custom dir structure is required, the following works well: [github.com/VladimirMikulic/parcel-plugin-custom-dist-structure](https://github.com/VladimirMikulic/parcel-plugin-custom-dist-structure)
+
+---
+
+Also included:
+
+- [Prettier](https://prettier.io/) code formatter with some common defaults
+- `autoprefixer` plugin for Parcel to add vendor prefixes via PostCSS
+
+For further information refer to:
+
+- Parcel documentation: [parceljs.org/docs/](https://parceljs.org/docs/)
+- Prettier documentation: [prettier.io/docs/](https://prettier.io/docs/en/index.html)
