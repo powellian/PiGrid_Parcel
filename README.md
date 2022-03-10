@@ -53,8 +53,6 @@ To compile for production:
 **NOTE:**
 Parcel deploys files to a flat structure. If a custom dir structure is required, the following works well: [github.com/VladimirMikulic/parcel-plugin-custom-dist-structure](https://github.com/VladimirMikulic/parcel-plugin-custom-dist-structure)
 
----
-
 **Also included:**
 
 - [Prettier](https://prettier.io/) code formatter with some common defaults
