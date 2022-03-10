@@ -12,7 +12,9 @@ A `<header>` block uses named `grid-template-areas`, seperate from the rest of t
 Inspired by [Foundation](https://foundation.zurb.com/sites/docs/) & [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/) , PiGrid layout consists of an outer `container`, then `row`, then inner `pod/s`. Add the relevant classes and the layout will flow accordingly.
 
 **How:** \
-Outer `container` elements are wrapped around the complete markup or individual blocks; width is modified via class modifiers: `--mini`, `--midi`, `--maxi`. There's an optional outer wrapper class for full width/height usilising `vw/vh` attributes.
+Outer `container` elements are wrapped around the complete markup or individual blocks; width is modified via class modifiers: `--mini`, `--midi`, `--maxi`.
+
+There's an optional outer wrapper class for full width/height usilising `vw/vh` attributes, e.g.: `layout-wrapper--full-vh`
 
 Inner `row` blocks indicate the divisible aspect of the content pods e.g.:
 `pigr__row pigr__row--N`- where N is the grid _fraction_ (`fr`), for the child `pod`s.
