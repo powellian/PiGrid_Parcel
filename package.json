@@ -2,10 +2,12 @@
   "name": "pigrid_parcel",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "clean": "rm -rf dist/",
+    "build": "npm run clean && parcel build"
   },
   "repository": {
     "type": "git",
