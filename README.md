@@ -55,7 +55,7 @@ Parcel deploys files to a flat structure. If a custom dir structure is required,
 
 ---
 
-Also included:
+**Also included:**
 
 - [Prettier](https://prettier.io/) code formatter with some common defaults
 - `autoprefixer` plugin for Parcel to add vendor prefixes via PostCSS
