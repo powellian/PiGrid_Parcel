@@ -38,6 +38,8 @@ The pods in the demo with gradient from green to red use the SASS `mix` function
 
 Refer to the following `.scss` file: `scss/components/atomic/_gradient-block.scss`
 
+A JS `for` loop in `main.js` numerically increments these pods which dovetail with the SASS to affect the gradient.
+
 **Demo:** [pigrid-demo.netlify.app](https://pigrid-demo.netlify.app/)
 
 ---
@@ -67,6 +69,12 @@ For further information refer to:
 
 - Parcel documentation: [parceljs.org/docs/](https://parceljs.org/docs/)
 - Prettier documentation: [prettier.io/docs/](https://prettier.io/docs/en/index.html)
+
+---
+
+## TODO
+
+Implement SASS `@use`: [sass-lang.com/documentation/at-rules/use](https://sass-lang.com/documentation/at-rules/use)
 
 ---
 
