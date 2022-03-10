@@ -29,15 +29,10 @@ Omitting the pod size leads to the elements _auto-sizing_ in the available space
 
 - 4x `pigr__pod` and 1x `pigr__row pigr__pod--2`
 
-**_QA:_** \
-Mobile testing done in Android: Firefox & Chrome and iOS: Safari.
-Tested iteratively from ground-up in all decent modern browsers, with Firefox and Chrome device emulators used extensively throughout.
-Tablet devices mostly tested in emulators.
+**Gradient pods:** \
+The pods with gradient from green to red us the SASS `mix` function - [sass-lang.com/documentation/modules/color#mix](https://sass-lang.com/documentation/modules/color#mix)
 
-Edge Chromium renders perfectly. \
-Edge 16+ tested intermittently in Browserstack, needs more (in progress). \
-**Currently breaks a bit in IE11.** \
-Nothing pre-IE11.
+Refer to the following: `scss/components/atomic/_gradient-block.scss`
 
 ---
 
@@ -68,3 +63,15 @@ For further information refer to:
 
 - Parcel documentation: [parceljs.org/docs/](https://parceljs.org/docs/)
 - Prettier documentation: [prettier.io/docs/](https://prettier.io/docs/en/index.html)
+
+---
+
+**_QA:_** \
+Mobile testing done in Android: Firefox & Chrome and iOS: Safari.
+Tested iteratively from ground-up in all decent modern browsers, with Firefox and Chrome device emulators used extensively throughout.
+Tablet devices mostly tested in emulators.
+
+Edge Chromium renders perfectly. \
+Edge 16+ tested intermittently in Browserstack, needs more (in progress). \
+**Currently breaks a bit in IE11.** \
+Nothing pre-IE11.
