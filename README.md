@@ -3,7 +3,7 @@
 **Demo:** [pigrid-demo.netlify.app](https://pigrid-demo.netlify.app/)
 
 **What:** \
-A grid system using CSS-Grid and Flexbox, written in SCSS and utilising BEM throughout.
+A responsive grid system using CSS-Grid and Flexbox, written in SCSS and utilising BEM throughout.
 
 It uses a few SASS loops and a bunch of settings to generate up to 12 grid-row elements, all nestable, using inline classes.
 
