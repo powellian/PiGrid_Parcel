@@ -33,10 +33,12 @@ Omitting the pod size leads to the elements _auto-sizing_ in the available space
 - 4x `pigr__pod` and 1x `pigr__row pigr__pod--2`
 
 **Gradient pods:** \
-The pods with gradient from green to red us the SASS `mix` function: \
+The pods in the demo with gradient from green to red us the SASS `mix` function: \
 [sass-lang.com/documentation/modules/color#mix](https://sass-lang.com/documentation/modules/color#mix)
 
 Refer to the following `.scss` file: `scss/components/atomic/_gradient-block.scss`
+
+**Demo:** [pigrid-demo.netlify.app](https://pigrid-demo.netlify.app/)
 
 ---
 
