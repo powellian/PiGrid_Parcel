@@ -4,17 +4,14 @@
 
 **Demo:** [pigrid-demo.netlify.app](https://pigrid-demo.netlify.app/)
 
-**What**
-
-A SCSS setup utilising a few loops and a bunch of settings to generate up to 12 grid-row elements, all nestable, using inline classes. Utilises [BEM](https://css-tricks.com/bem-101/) throughout.
+**What** \ A SCSS setup utilising a few loops and a bunch of settings to generate up to 12 grid-row elements, all nestable, using inline classes. Utilises [BEM](https://css-tricks.com/bem-101/) throughout.
 A newly added `<header>` uses named `grid-template-areas`, seperate from the rest of the grid.
 
 **Demo:** [powellian.com/pigrid/]()
 
 Inspired by [Foundation](https://foundation.zurb.com/sites/docs/)/[Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/) , PiGrid layout consists of an outer `container`, then `row`, then inner `pod/s`. Add the relevant classes and the layout will flow accordingly.
 
-**How**
-Outer `container` elements are wrapped around the complete markup or individual blocks; width is modified via class modifiers: `--mini`, `--midi`, `--maxi`. There's an optional outer wrapper class for full width/height usilising `vw/vh` attributes.
+**How:** \ Outer `container` elements are wrapped around the complete markup or individual blocks; width is modified via class modifiers: `--mini`, `--midi`, `--maxi`. There's an optional outer wrapper class for full width/height usilising `vw/vh` attributes.
 
 Inner `row` blocks indicate the divisible aspect of the content pods e.g.:
 `pigr__row pigr__row--N`- where N is the grid _fraction_ (`fr`), for the child `pod`s.
@@ -34,14 +31,13 @@ Omitting the pod size leads to the elements _auto-sizing_ in the available space
 
 - 4x `pigr__pod` and 1x `pigr__row pigr__pod--2`
 
-**_QA:_**
-Mobile testing done in Android: Firefox & Chrome and iOS: Safari.
+**_QA:_** \ Mobile testing done in Android: Firefox & Chrome and iOS: Safari.
 Tested iteratively from ground-up in all decent modern browsers, with Firefox and Chrome device emulators used extensively throughout.
 Tablet devices mostly tested in emulators.
 
-Edge Chromium renders perfectly.
-Edge 16+ tested intermittently in Browserstack, needs more (in progress).
-**Currently breaks a bit in IE11.**
+Edge Chromium renders perfectly. \
+Edge 16+ tested intermittently in Browserstack, needs more (in progress). \
+**Currently breaks a bit in IE11.** \
 Nothing pre-IE11.
 
 ---
