@@ -1,6 +1,8 @@
 # PiGrid
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/powellian/pigrid) ![GitHub](https://img.shields.io/github/license/powellian/pigrid) ![David](https://img.shields.io/david/powellian/pigrid)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/powellian/pigrid) ![GitHub](https://img.shields.io/github/license/powellian/pigrid)
+
+**Demo:** [pigrid-demo.netlify.app](https://pigrid-demo.netlify.app/)
 
 **What**
 
