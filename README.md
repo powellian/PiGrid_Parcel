@@ -74,5 +74,5 @@ Tablet devices mostly tested in emulators.
 
 Edge Chromium renders perfectly. \
 Edge 16+ tested intermittently in Browserstack, needs more (in progress). \
-**Currently breaks a bit in IE11.** \
+Currently breaks a bit in IE11. \
 Nothing pre-IE11.
