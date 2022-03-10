@@ -4,11 +4,9 @@
 
 **Demo:** [pigrid-demo.netlify.app](https://pigrid-demo.netlify.app/)
 
-**What** \
+**What:** \
 A SCSS setup utilising a few loops and a bunch of settings to generate up to 12 grid-row elements, all nestable, using inline classes. Utilises [BEM](https://css-tricks.com/bem-101/) throughout.
 A newly added `<header>` uses named `grid-template-areas`, seperate from the rest of the grid.
-
-**Demo:** [powellian.com/pigrid/]()
 
 Inspired by [Foundation](https://foundation.zurb.com/sites/docs/)/[Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/) , PiGrid layout consists of an outer `container`, then `row`, then inner `pod/s`. Add the relevant classes and the layout will flow accordingly.
 
