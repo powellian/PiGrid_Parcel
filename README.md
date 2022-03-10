@@ -14,7 +14,7 @@ Inspired by [Foundation](https://foundation.zurb.com/sites/docs/) & [Bootstrap](
 **How:** \
 Outer `container` elements are wrapped around the complete markup or individual blocks; width is modified via class modifiers: `--mini`, `--midi`, `--maxi`.
 
-There's an optional outer wrapper class for full width/height usilising `vw/vh` attributes, e.g.: \
+There's an optional outer wrapper class for full width/height usilising `vw/vh` attributes via BEM modifiers, e.g.: \
 `layout-wrapper--full-vh`
 
 Inner `row` blocks indicate the divisible aspect of the content pods e.g.:
