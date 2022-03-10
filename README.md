@@ -38,6 +38,9 @@ The pods with gradient from green to red us the SASS `mix` function: \
 
 Refer to the following `.scss` file: `scss/components/atomic/_gradient-block.scss`
 
+**JS** \
+A vanilla JS `for` loop in `main.js` is used to numerically increment the pods, and this dovetails with the SASS loops to build the grid.
+
 ---
 
 ## To run and view the project:
