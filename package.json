@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/powellian/PiGrid_Parcel#readme",
   "dependencies": {
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "minimist": ">=1.2.6"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.2.1",
